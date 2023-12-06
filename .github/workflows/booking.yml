@@ -13,7 +13,9 @@ env:
 on:
   # Triggers the workflow at a certain time
   schedule: 
-    - cron: '54 17 * * 6'
+    - cron: '54 17 * * 4'
+    - cron: '54 17 * * 3'
+    - cron: '54 17 * * 2'
     - cron: '54 17 * * 0'
 
   # Allows you to run this workflow manually from the Actions tab
