@@ -12,5 +12,11 @@
   "engines": {
     "node": "18.x",
     "npm": "9.x"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "scripts": {
+    "dev": "nodemon --experimental-modules add-to-cart.mjs"
   }
 }
