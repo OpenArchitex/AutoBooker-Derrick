@@ -13,9 +13,8 @@ env:
 on:
   # Triggers the workflow at a certain time
   schedule: 
-    - cron: '50 17 * * 5'
+    - cron: '50 17 * * 6'
     - cron: '50 17 * * 4'
-    - cron: '50 17 * * 3'
     - cron: '50 17 * * 2'
     - cron: '50 17 * * 0'
 
