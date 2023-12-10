@@ -60,7 +60,7 @@ jobs:
 
       # Runs Puppeteer
       - name: Run Puppeteer
-        run: export PERSON="${{ matrix.person }}" && node add-to-cart.mjs
+        run: export PERSON="${{ matrix.person }}" && node index.mjs
 
       # Archive Debug Logs
       - name: Archive Debug Logs
