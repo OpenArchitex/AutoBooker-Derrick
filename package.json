@@ -19,6 +19,7 @@
   },
   "scripts": {
     "dev": "nodemon --experimental-modules index.mjs",
-    "prettier:write": "prettier --write ."
+    "prettier:write": "prettier --write .",
+    "createschedule": "node ./Helpers/CreateSchedule.mjs"
   }
 }
