@@ -5,8 +5,8 @@ env:
   ED_PASSWORD: ${{ secrets.ED_PASSWORD }}
   CAPTCHA_API_KEY: ${{ secrets.CAPTCHA_API_KEY }}
   SIGN_IN_URL: ${{ vars.SIGN_IN_URL }}
+  BOOKING_JSON: ${{ vars.BOOKING_JSON }}
   DUMMY_BOOKING_URL: ${{ vars.DUMMY_BOOKING_URL }}
-  BOOKING_URL: ${{ vars.BOOKING_URL }}
   RETRY_INTERVAL: ${{ vars.RETRY_INTERVAL }}
 
 # Controls when the workflow will run
